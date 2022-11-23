@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" type="img/png" href="img/favicon-16x16.png">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="desciption" content="Proyecto final de HTML, CSS y JS">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/estilo.css" />
+    <link rel="stylesheet" href="/css/buttons.css" />
+    <title>Familia</title>
+    <!--Fuentes-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <!--Boostrap-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+</head>
+<body>
+    <section id="inicio">
+        <section class="contenido">
+          <header>
+            <section class="contenido-header">
+              <h1><a href="index.html" onclick="seleccionar(this)">/KEVIN ZM/</a></h1>
+              <nav id="nav" class="">
+                <ul id="links">
+                      <li>
+                        <a href="presentacion.html" onclick="seleccionar(this)">PRESENTACION</a>
+                      </li>
+                      <li>
+                        <a href="familia.html" class="seleccionado" onclick="seleccionar(this)">FAMILIA</a>
+                      </li>
+                      <li>
+                        <a href="amigos.html" onclick="seleccionar(this)">AMIGOS</a>
+                      </li>
+                      <li>
+                        <a href="estudios.html" onclick="seleccionar(this)">ESTUDIOS</a>
+                      </li>
+                      <li>
+                        <a href="contacto.html" onclick="seleccionar(this)">CONTACTO</a>
+                      </li>
+                </ul>
+              </nav>
+
+            </section>
+          </header>
+            </section>
+
+    <!-- SECCION FAMILIA -->
+    <section id="portfolio">
+        <h3 class="titulo-seccion" style="color: white;">Mi Familia</h3>
+        <section class="fila">
+          <section class="proyecto">
+            <section class="overlay"></section>
+            <img src="img/tia.jpg" alt="" />
+            <section class="info">
+              <h4>Miriam Marrufo</h4>
+              <p>Tía<a href=""></a></p>
+            </section>
+          </section>
+
+          <section class="proyecto">
+            <section class="overlay"></section>
+            <img src="img/primo.jpg" alt="" />
+            <section class="info">
+              <h4>Lenin Zambrano</h4>
+              <p>Primo</p>
+            </section>
+          </section>
+
+          <section class="proyecto">
+            <section class="overlay"></section>
+            <img src="img/padres.jpg" alt="" />
+            <section class="info">
+              <h4>Marina y Joel</h4>
+              <p>Padres</p>
+            </section>
+          </section>
+        </section>
+
+        <section class="fila">
+          <section class="proyecto">
+            <section class="overlay"></section>
+            <img src="img/hermano.jpg" alt="" />
+            <section class="info">
+              <h4>Carlos Zambrano</h4>
+              <p>Hermano</p>
+            </section>
+          </section>
+
+          <section class="proyecto">
+            <section class="overlay"></section>
+            <img src="img/sobrinos.jpg" alt="" />
+            <section class="info">
+              <h4>Danna, Diego y Jheison</h4>
+              <p>Sobrinos</p>
+            </section>
+          </section>
+        </section>
+      </section>
+
+
+
+<!-- SECCION FOOTER -->
+    <footer>
+        <p>Todos los derechos reservados - 2022</p>
+        <section class="redes">
+          <a href="#"><i class="fa-brands fa-youtube"></i></a>
+          <a href="#"><i class="fa-brands fa-facebook"></i></a>
+          <a href="#"><i class="fa-brands fa-instagram-square"></i></a>
+        </section>
+    </footer>
+  
+      <script src="/js/script.js"></script>
+</body>
+</html>

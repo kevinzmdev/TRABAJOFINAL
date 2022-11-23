@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="img/png" href="img/favicon-16x16.png">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="desciption" content="Proyecto final de HTML, CSS y JS">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--Boostrap-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+    <!-- link de Css -->
+    <link rel="stylesheet" href="css/estilo.css" />
+    <link rel="stylesheet" href="/css/buttons.css" />
+    <title>Proyecto final</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700;800&display=swap" rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <!-- SECCION INICIO -->
+    <section id="inicio">
+      <section class="contenido">
+        <header>
+          <section class="contenido-header">
+            <h1><a href="index.html" onclick="seleccionar(this)">/KEVIN ZM/</a></h1>
+            <nav id="nav" class="">
+              <ul id="links">
+                <li>
+                  <a
+                    href="presentacion.html"onclick="seleccionar(this)">PRESENTACION</a>
+                </li>
+                <li>
+                  <a href="familia.html" onclick="seleccionar(this)">FAMILIA</a>
+                </li>
+                <li>
+                  <a href="amigos.html" onclick="seleccionar(this)">AMIGOS</a>
+                </li>
+                <li>
+                  <a href="estudios.html" onclick="seleccionar(this)">ESTUDIOS</a>
+                </li>
+                <li>
+                  <a href="contacto.html" onclick="seleccionar(this)"
+                    >CONTACTO</a
+                  >
+                </li>
+              </ul>
+            </nav>
+            
+
+          </section>
+        </header>
+
+        <section class="presentacion">
+          <p class="bienvenida">Bienvenidos</p>
+          <h2>Soy <span>KEVIN ZAMBRANO,</span> Desarrollador Front End</h2>
+          <p class="descripcion">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius, ex quidem unde aliquid at neque voluptatem quod deleniti repellendus asperiores excepturi. Officiis fugit porro error quam possimus suscipit, odio neque?
+          </p>
+          <button class="custombutton">
+            <a class="custombutton__a" href="presentacion.html"
+              ><span class="custombutton__span"></span> Ir a Presentación</a
+            >
+          </button>
+        </section>
+      </section>
+    </section>
+      
+            <!-- SECCION FOOTER -->
+    <footer>
+      <p>Todos los derechos reservados - 2022</p>
+      <section class="redes">
+        <a href="#"><i class="fa-brands fa-youtube"></i></a>
+        <a href="#"><i class="fa-brands fa-facebook"></i></a>
+        <a href="#"><i class="fa-brands fa-instagram-square"></i></a>
+      </section>
+    </footer>
+
+    <script src="/js/script.js"></script>
+  </body>
+</html>
