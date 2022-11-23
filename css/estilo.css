@@ -15,7 +15,7 @@ html {
 
 #inicio {
   background-image: linear-gradient(rgba(0, 0, 27, 0.5), rgba(0, 0, 27, 0.5)),
-    url("/img/fondo-inicio.jpg");
+    url("img/fondo-inicio.jpg");
   background-size: cover;
   background-position: center center;
   height: 100vh;
@@ -268,7 +268,7 @@ html {
 
 .contenedor-skills {
   background-image: linear-gradient(#eabd26, rgba(33, 16, 16, 0.8)),
-    url("/img/fondo-skills.jpg");
+    url("img/fondo-skills.jpg");
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
